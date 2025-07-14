@@ -25,10 +25,9 @@ This tool provides a quick way to see recent traffic data directly from your ter
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/LMLK-seal/github-repo-stats.git
+    git clone https://github.com/your-username/github-repo-stats.git
     cd github-repo-stats
     ```
-    *(Replace `your-username/github-repo-stats` with the actual repository path if you fork it)*
 
 2.  **Install dependencies:**
     ```bash
@@ -57,7 +56,7 @@ This tool provides a quick way to see recent traffic data directly from your ter
 Run the script from your terminal, providing the repository name in the format `owner/repo` as a command-line argument.
 
 ```bash
-node get-stats.js your-username/repository
+node get-stats.js owner/repository
 ```
 
 **Example:**
