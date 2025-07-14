@@ -1,0 +1,4 @@
+# .gitignore file
+
+# Ignore Node.js dependencies folder
+node_modules
