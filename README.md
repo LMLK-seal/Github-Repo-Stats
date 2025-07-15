@@ -25,7 +25,7 @@ This tool provides a quick way to see recent traffic data directly from your ter
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/LMLK-seal/github-repo-stats.git
+    git clone https://github.com/your-username/github-repo-stats.git
     cd github-repo-stats
     ```
 
@@ -56,7 +56,7 @@ This tool provides a quick way to see recent traffic data directly from your ter
 Run the script from your terminal, providing the repository name in the format `owner/repo` as a command-line argument.
 
 ```bash
-node get-stats.js your-username/repository
+node get-stats.js owner/repository
 ```
 
 **Example:**
@@ -64,8 +64,41 @@ node get-stats.js your-username/repository
 ```bash
 node get-stats.js facebook/react
 ```
-
 The script will then fetch and print the traffic data for the specified repository.
+
+---
+
+# Views vs Unique Visitors
+
+## Overview
+
+Understanding the difference between views and unique visitors is crucial for analyzing your repository's performance and audience engagement.
+
+## Metric Definitions
+
+### Views
+**Views** represent the total number of times your repository page has been loaded. 
+
+- **Counting Method**: Each page load is counted as one view
+- **Example**: If one person visits your page 10 times, that counts as **10 views**
+- **What it measures**: Overall activity and interest levels
+
+### Unique Visitors
+**Unique Visitors** represent the number of individual people who have viewed your repository.
+
+- **Counting Method**: Each person is counted only once per day, regardless of how many times they visit
+- **Example**: If the same person visits your page 10 times in one day, they are counted as **1 unique visitor** for that day
+- **What it measures**: The size and reach of your audience
+
+## Why Both Metrics Matter
+
+Both metrics provide valuable insights into different aspects of your audience's behavior:
+
+| Metric | What It Tells You | Usefulness |
+|--------|------------------|------------|
+| **Views** | Measures overall activity and interest. A high view count indicates your repository is receiving significant attention, even if from a smaller group of engaged users. | **Immediate Impact**: Ideal for assessing the short-term impact of promotions, such as tweets or blog posts. A spike in views indicates your content is being actively shared and consumed. |
+| **Unique Visitors** | Measures the size and reach of your audience. This metric reveals how many different individuals are discovering and engaging with your project. | **Long-term Growth**: Best for understanding sustainable growth patterns. A steadily increasing unique visitor count indicates you're consistently attracting new people, not just repeat visits. |
+
 
 🤝 Contributing
 
